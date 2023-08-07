@@ -1,2 +1,4 @@
 notebook==6.5.2
 numpy==1.25.2
+mathplotlib
+
