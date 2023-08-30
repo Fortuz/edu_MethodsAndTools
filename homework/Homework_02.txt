@@ -1,0 +1,5 @@
+Copy this colab notebook (File -> Save a copy in Drive):
+https://colab.research.google.com/drive/1gZnVsEeG4k7_mafxfNvMISikCElam7fE?usp=sharing
+Fill in the solutions for those excercises you need to solve, comment out the
+assertions for the remaining excercises
+Download notebook (File -> Download -> Download .ipynb) and submit it on canvas

@@ -1,0 +1,8 @@
+Solve the following excercises:
+
+Bishop - excercise 4.1
+Bishop - excercise 4.12
+Bishop - excercise 4.13
+The excercises are from the book: C. Bishop: Pattern Recognition and Machine Learning.
+Free pdf of the book is available at
+https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/

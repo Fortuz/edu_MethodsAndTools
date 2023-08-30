@@ -1,0 +1,13 @@
+1) Generate synthetic data in 2D: three groups of Gaussian distributed points with these parameters:
+        N = 50 # points per group
+        sigma = np.diagflat([1,1]) # covariance matrix per group
+        centers = [[-3,-3], [-3, 3], [2, 4]] # list of centers
+Using only the numpy library (i.e., not using sklearn) perform a PCA on this data to reduce to 1D, and plot the reconstruction (different colors for the 3 groups). Does PCA separate the groups?
+
+2) Consider the following images, obtained from the skimage library:
+        import skimage
+        img1 = skimage.data.cat()
+        img2 = skimage.data.page()
+For both images separately perform PCA (here you may use sklearn if you prefer), where the samples are the individual rows of the images. (Warning: one of the images is color.) How many components are needed to recognize the image (or get the text readable)? There is no sharp answer, a rough range would be fine.
+Hint: matplotlib's imshow() thinks that if the dtype of an array is float, then the useful range of values is [0,1], while if the dtype is some int variant, the range is [0,255]. One solution is to convert the float-valued reconstruction with effective range [0,255] to integer type before plotting:
+        plottable_reconstruction = reconstruction.astype(int)
